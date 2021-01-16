@@ -16,7 +16,7 @@ const Birra = ({abv,description,first_brewed,ibu,id,image_url,name,tagline,food_
 
                <Card style={{width:"350px",height:"560px"}}> 
                 <Card.Header style={{backgroundColor:'#f88f01',textAlign:"center",color:"#fff",fontSize:"18px",fontWeight:"700"}}>{name}</Card.Header>
-                <Card.Img variant={"top"} src={image_url} className="mx-auto  w-50 d-block img-fluid" style={{maxHeight:"250px",maxWidth:"250px",objectFit:"scale-down",paddingTop:"20px"}}></Card.Img>
+                <Card.Img variant={"top"} src={image_url} className="mx-auto  w-50 d-block img-fluid" style={{maxHeight:"150px",maxWidth:"150px",objectFit:"scale-down",paddingTop:"20px"}}></Card.Img>
                 
                 <Card.Body>
                     <Card.Title style={{color:"#f88f01",textAlign:"center",marginTop:"30px"}}>{tagline}</Card.Title>
