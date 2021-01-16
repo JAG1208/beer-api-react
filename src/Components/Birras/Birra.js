@@ -11,7 +11,7 @@ const Birra = ({abv,description,first_brewed,ibu,id,image_url,name,tagline,food_
         setIsFlipped(!isFlipped);
     }
     return (
-        <Col md={4} className="mt-3 mb-3 text-centerr">
+        <Col md={4}  className="mt-3 mb-3 text-centerr">
             <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
 
                <Card style={{width:"auto",height:"500px"}}> 

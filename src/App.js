@@ -7,7 +7,7 @@ import './App.css';
 
 const App = ()  => {
   return (
-<Container>
+<Container fluid>
 <Birras />
 </Container>
   )
