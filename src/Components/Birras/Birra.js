@@ -14,7 +14,7 @@ const Birra = ({abv,description,first_brewed,ibu,id,image_url,name,tagline,food_
         <Col md={4} className="mt-3 mb-3 text-centerr">
             <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
 
-               <Card style={{width:"350px",height:"500px"}}> 
+               <Card style={{width:"auto",height:"500px"}}> 
                 <Card.Header style={{backgroundColor:'#f88f01',textAlign:"center",color:"#fff",fontSize:"18px",fontWeight:"700"}}>{name}</Card.Header>
                 <Card.Img variant={"top"} src={image_url} className="mx-auto  w-50 d-block img-fluid" style={{maxHeight:"200px",maxWidth:"200px",objectFit:"scale-down",paddingTop:"20px"}}></Card.Img>
                 
@@ -29,7 +29,7 @@ const Birra = ({abv,description,first_brewed,ibu,id,image_url,name,tagline,food_
                         
                 </Card.Footer>
             </Card> 
-            <Card style={{width:"350px",height:"500px"}}>
+            <Card style={{width:"auto",height:"500px"}}>
             <Card.Header className="text-center" style={{backgroundColor:'#b6ed11',fontWeight:"700",fontSize:"18px",color:"white"}}>{name}</Card.Header>
 
                 <Card.Body>
