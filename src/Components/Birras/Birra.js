@@ -30,7 +30,7 @@ const Birra = ({abv,description,first_brewed,ibu,id,image_url,name,tagline,food_
                 </Card.Footer>
             </Card> 
             <Card style={{width:"auto",height:"500px"}}>
-            <Card.Header className="text-center" style={{backgroundColor:'#b6ed11',fontWeight:"700",fontSize:"18px",color:"white"}}>{name}</Card.Header>
+            <Card.Header className="text-center" style={{backgroundColor:'#124eb0',fontWeight:"700",fontSize:"18px",color:"white"}}>{name}</Card.Header>
 
                 <Card.Body>
                 
