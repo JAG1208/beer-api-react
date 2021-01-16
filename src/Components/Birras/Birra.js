@@ -49,7 +49,7 @@ const Birra = ({abv,description,first_brewed,ibu,id,image_url,name,tagline,food_
                     </Card.Text>
                     
                 </Card.Body>
-                <Card.Footer style={{backgroundColor:'#b124eb0'}}>
+                <Card.Footer style={{backgroundColor:'#124eb0'}}>
                         <Button  variant='link' onClick={handleClick} size="sm" ><FontAwesomeIcon icon={faReplyAll} size="2x" color="white"  /></Button>
                 </Card.Footer>
             </Card> 
