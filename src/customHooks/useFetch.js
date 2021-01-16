@@ -19,8 +19,9 @@ export const useFetch = (endpoint, initialState = []) => {
       setError(true);
     }
   };
-  useEffect(() => {
+   useEffect(() => {
     fetchData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [endpoint]);
 
   return [data, fetching, error];

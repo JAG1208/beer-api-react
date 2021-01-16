@@ -9,6 +9,7 @@ import Loading from './../Loading';
 //const endpoint="beers"
 
 const Birras = () => {
+    // eslint-disable-next-line no-unused-vars
     const [data,fetching,error]=useFetch('beers');
     //const [birras]=data;
     return (  
